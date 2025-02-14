@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Trigonometry Formula Sheet</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        header {
+            background-color: #6a0dad; /* Purple */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            flex: 1;
+            width: 100%;
+        }
+        nav {
+            background-color: #b8860b; /* Dark golden color */
+            padding: 10px;
+            position: fixed;
+            width: 200px; 
+            height: 100vh;
+            overflow: auto;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background-color: #6a0dad;
+        }
+        main {
+            margin-left: 220px;
+            padding: 15px;
+            max-width: 900px;
+            flex: 1;
+            background-color: #f3e6f5;
+            text-align: left;
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+        .formula-section {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .formula-section h2 {
+            font-size: 20px;
+            color: #6a0dad;
+            border-bottom: 2px solid #b8860b;
+            padding-bottom: 5px;
+        }
+        .formula-section ul {
+            list-style: none;
+            padding-left: 15px;
+        }
+        .formula-section li {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #6a0dad;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+            position: fixed;
+            width: calc(100% - 200px);
+            bottom: 0;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="formula-sheet.html">Trigonometry Formula Sheet</a></li>
+            <li><a href="page1.html">Confidence Intervals</a></li>
+            <li><a href="page2.html">Hypothesis Testing</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>College Trigonometry Formula Sheet</h1>
+    </header>
+
+    <main>
+        <p>Welcome to the Trigonometry Formula Sheet! Here you’ll find essential formulas used in college-level trigonometry, organized by topic for easy reference.</p>
+        
+        <div class="formula-section">
+            <h2>Basic Trigonometric Functions</h2>
+            <ul>
+                <li>\(\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}\)</li>
+                <li>\(\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}}\)</li>
+                <li>\(\tan \theta = \frac{\text{opposite}}{\text{adjacent}}\)</li>
+                <li>\(\csc \theta = \frac{1}{\sin \theta}\)</li>
+                <li>\(\sec \theta = \frac{1}{\cos \theta}\)</li>
+                <li>\(\cot \theta = \frac{1}{\tan \theta}\)</li>
+            </ul>
+        </div>
+
+        <div class="formula-section">
+            <h2>Pythagorean Identities</h2>
+            <ul>
+                <li>\(\sin^2 \theta + \cos^2 \theta = 1\)</li>
+                <li>\(1 + \tan^2 \theta = \sec^2 \theta\)</li>
+                <li>\(1 + \cot^2 \theta = \csc^2 \theta\)</li>
+            </ul>
+        </div>
+
+        <div class="formula-section">
+            <h2>Angle Sum and Difference Formulas</h2>
+            <ul>
+                <li>\(\sin(a \pm b) = \sin a \cos b \pm \cos a \sin b\)</li>
+                <li>\(\cos(a \pm b) = \cos a \cos b \mp \sin a \sin b\)</li>
+                <li>\(\tan(a \pm b) = \frac{\tan a \pm \tan b}{1 \mp \tan a \tan b}\)</li>
+            </ul>
+        </div>
+
+        <div class="formula-section">
+            <h2>Double Angle Formulas</h2>
+            <ul>
+                <li>\(\sin(2a) = 2 \sin a \cos a\)</li>
+                <li>\(\cos(2a) = \cos^2 a - \sin^2 a\)</li>
+                <li>\(\tan(2a) = \frac{2 \tan a}{1 - \tan^2 a}\)</li>
+            </ul>
+        </div>
+
+        <div class="formula-section">
+            <h2>Law of Sines and Cosines</h2>
+            <ul>
+                <li>Law of Sines: \(\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}\)</li>
+                <li>Law of Cosines: \(c^2 = a^2 + b^2 - 2ab\cos C\)</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Asma S. Alayeb</p>
+    </footer>
+</body>
+</html>
